@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/*
+https://rockcontent.com/br/blog/psicologia-das-cores/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); fonte titulo 1;
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap'); fonte paragrafos;
+
+
+
+#FFA500
+#806026
+#CC8500
+#FFC14D
+#805300
+
+
+<img src="imagens/cantores/eletronica/alok.png" alt="Alok">
+<ol alok>
+                    <li><a href="alok.html" target="_blank">Alive(It fells like)</a></li>
+                    <li><a href="alok.html" target="_blank">Big Jet Plane(feat. Mathieu Koss)</a></li>
+                    <li><a href="alok.html" target="_blank">Cars Keys(Ayla) (feat. Ava Max)</a></li>
+                    <li><a href="alok.html" target="_blank">Free My Mind(feat. Dubdogz & Rooftime)</a></li>
+                    <li><a href="alok.html" target="_blank">Fuego(feat. Bhaskar)</a></li>
+                    <li><a href="alok.html" target="_blank">Hear Me Now(feat. Bruno Martini & Zebba)</a></li>
+                    <li><a href="alok.html" target="_blank">In My Mind(feat. John Legend)</a></li>
+                    <li><a href="alok.html" target="_blank">Never Let Me Go(feat. Bruno Martini & Zebba)</a></li>
+                    <li><a href="alok.html" target="_blank">Ocean(feat. Zebba & IRO)</a></li>
+                    <li><a href="alok.html" target="_blank">Side Effect(feat. Au/Ra)</a></li>
+                </ol>
+
+<img src="imagens/cantores/eletronica/david-guetta.jpg" alt="David Guetta">
+<ol david>
+                    <li><a href="david.html" target="_blank">Flames(feat. Sia)</a></li>
+                    <li><a href="david.html" target="_blank">Hey Mama(feat. Nick Minaj, Bebe Rexha & Afrojack)</a></li>
+                    <li><a href="david.html" target="_blank">I'm Good(Blue) (feat. Bebe Rexha)</a></li>
+                    <li><a href="david.html" target="_blank">Lovers On The Sun(feat. Sam Martin)</a></li>
+                    <li><a href="david.html" target="_blank">Memories(feat. Kid Cudi)</a></li>
+                    <li><a href="david.html" target="_blank">Play Hard(feat. Ne-Yo & Akon)</a></li>
+                    <li><a href="david.html" target="_blank">Sexy Bitch(feat. Akon)</a></li>
+                    <li><a href="david.html" target="_blank">She Wolf(Falling To Pieces)(feat. Sia)</a></li>
+                    <li><a href="david.html" target="_blank">Titanium(feat. Sia)</a></li>
+                    <li><a href="david.html" target="_blank">Without You(feat. Usher)</a></li>
+</ol>
+
+<img src="imagens/cantores/eletronica/marshmello.jpg" alt="Marshmello">
+<ol mashmello>
+                    <li><a href="mash.html" target="_blank">Alone</a></li>
+                    <li><a href="mash.html" target="_blank">Be Kind(feat. Halsey)</a></li>
+                    <li><a href="mash.html" target="_blank">Esta Vida(part. Farruko)</a></li>
+                    <li><a href="mash.html" target="_blank">Friends(feat. Anne-Marie)</a></li>
+                    <li><a href="mash.html" target="_blank">Happier(feat. Bastille)</a></li>
+                    <li><a href="mash.html" target="_blank">Here With Me(feat. CHVRCHES)</a></li>
+                    <li><a href="mash.html" target="_blank">Leave Before You Love Me (feat. Jonas Brothers)</a></li>
+                    <li><a href="mash.html" target="_blank">Numb(feat. Khalid)</a></li>
+                    <li><a href="mash.html" target="_blank">Silence(feat. Khalid)</a></li>
+                    <li><a href="mash.html" target="_blank">Tempo(part. Young Miko)</a></li>
+                </ol>
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+:root{
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Bricolage Grotesque', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    /*border-radius: 10px;*/
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to top, #FFA500, #CC8500);
+    padding: 0px 0px 10px 0px;
+    border-radius: 0px 0px 10px 10px;
+    min-height: 100px;
+}
+
+header > h1{
+    text-align: center;
+    padding: 20px 0px 20px;
+}
+
+header > nav > a{
+    padding: 0px 10px 0px 10px;
+}
+
+p{
+    font-family: var(--font2);
+}
+
+h1, h2{
+    font-family: var(--font1);
+}
+
+h1{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
+}
+
+h2.e{
+    font-family: var(--font1);
+    padding-left: 150px;
+    background-color: #CC8500;
+    color: white;
+    max-width: 200px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+h2.e:hover{
+    text-decoration: underline; 
+}
+
+h2.tmu{
+    font-family: var(--font1);
+    text-decoration: none;
+    color: #CC8500;
+    background-color: black;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+
+h2.tmu:hover{
+    text-decoration: underline;
+}
+
+h3.tmu{
+    font-family: var(--font1);
+    text-decoration: none;
+    color:#805300;
+    text-align: left;
+}
+
+h3.tmu:hover{
+    text-decoration: underline;
+}
+
+h2.tm{
+    font-family: var(--font1);
+    text-decoration: none;
+    color:#FFA500;
+    background-color:#805300;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+
+li{
+    text-align: left;
+    font-size: 1.3em;
+    font-family: var(--font2);
+    padding-left: 40px;
+}
+
+li:hover{
+    text-decoration:underline;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#CC8500;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+h3{
+    font-family: var(--font1);
+}
+
+h1.n{
+    font-family: var(--font1);
+    background-color:#805300;
+    color: white;
+    border-radius: 10px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+}
+
+a:hover{
+    background-color: #805300;
+    color: white;
+    border-radius: 10px;
+}
+
+img{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+
+/*div#a{
+    background-image: url(../imagens/cantores/eletronica/alok.png);
+    background-position: center;
+}
+
+<img src="imagens/noticias/pop/adele-noticia.jpg" alt="Adele fazendo um show">
+
+div#d{
+   background-image: url(../imagens/cantores/eletronica/david-guetta.jpg);
+}
+
+div#m{
+    background-image: url(../imagens/cantores/eletronica/marshmello.jpg);
+    background-repeat: no-repeat;
+}
+
+div.q{
+    border: 8px solid #CC8500;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}*/
+
+p{
+    padding: 0px 60px 0px 60px;
+}
+
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #805300;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    font-family: var(--font1);
+}
+
+footer > a:hover{
+    background-color: #FFA500;
+    color: white;
+}
