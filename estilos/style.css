@@ -71,14 +71,14 @@ https://rockcontent.com/br/blog/psicologia-das-cores/
     margin: 0px;
 }
 
-body{
+html{
     height: 100vh;
     width: 100vw;
 }
 
 main{
-    height: 100vh;
-    width: 100vw;
+    /*height: 100vh;
+    width: 100vw;*/
     /*border-radius: 10px;*/
     text-align: center;
 }
@@ -96,7 +96,7 @@ header > h1{
 }
 
 header > nav > a{
-    padding: 0px 6px 0px 6px;
+    padding: 0px 4px 0px 4px;
 }
 
 p{
