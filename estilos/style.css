@@ -90,7 +90,7 @@ header{
     min-height: 70px;
 }
 
-header > h2{
+header > h1{
     text-align: center;
     padding: 10px 0px 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
