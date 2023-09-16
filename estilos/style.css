@@ -97,6 +97,7 @@ header > h1{
 
 header > nav > a{
     padding: 0px 4px 0px 4px;
+    font-size: smaller;
 }
 
 p{
