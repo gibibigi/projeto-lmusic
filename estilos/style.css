@@ -56,6 +56,18 @@ https://rockcontent.com/br/blog/psicologia-das-cores/
                     <li><a href="mash.html" target="_blank">Silence(feat. Khalid)</a></li>
                     <li><a href="mash.html" target="_blank">Tempo(part. Young Miko)</a></li>
                 </ol>
+
+                @media screen and (min-width:300px) and (max-width:350px){
+            
+
+            div.q{
+                border: 8px solid #CC8500;
+                border-radius: 10px;
+                width: 350px;
+                height: 350px;
+                display: inline-block;
+            }
+        }
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
@@ -147,7 +159,7 @@ h3.tmu{
     text-align: left;
 }
 
-@media screen and (min-width:300px) and (max-width:450px){
+/*@media screen and (min-width:300px) and (max-width:450px){
 
     div#alok{
         background-image: url(imagens/cantores/eletronicaa/alok.png);
@@ -346,13 +358,14 @@ h3.tmu{
     }
 }
 
+
 div.q{
     border: 8px solid #CC8500;
     border-radius: 10px;
     width: 600px;
     height: 600px;
     display: inline-block;
-}
+}*/
 
 h3.tmu:hover{
     text-decoration: underline;
