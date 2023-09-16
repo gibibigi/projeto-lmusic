@@ -148,13 +148,202 @@ h3.tmu{
 }
 
 @media screen and (min-width:300px) and (max-width:450px){
-div.q{
-    border: 8px solid #CC8500;
-    border-radius: 10px;
-    width: 350px;
-    height: 350px;
-    display: inline-block;
-}
+
+    div#alok{
+        background-image: url(imagens/cantores/eletronicaa/alok.png);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#david{
+        background-image: url(imagens/cantores/eletronicaa/david-guetta.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#marsh{
+        background-image: url(imagens/cantores/eletronicaa/marshmell.jpg);
+        background-size: 350px 350px;
+        background-repeat: no-repeat;
+    }
+
+    div#dale{
+        background-image: url(imagens/cantores/funkk/mc_daleste.png);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#kevin{
+        background-image: url(imagens/cantores/funkk/mc-kevinh.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#paiva{
+        background-image: url(imagens/cantores/funkk/mc-paiva.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#anacar{
+        background-image: url(imagens/noticias/mpb/ana-carolina-noticia.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#cassia{
+        background-image: url(imagens/cantores/mpbb/cassia-eller.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#cazuza{
+        background-image: url(imagens/cantores/mpbb/cazuza.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#fer{
+        background-image: url(imagens/noticias/pagode/ferrugem-noticia.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#per{
+        background-image: url(imagens/cantores/pagodee/pericles.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#pix{
+        background-image: url(imagens/cantores/pagodee/pixot.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#adele{
+        background-image: url(imagens/cantores/popp/adel.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#maro{
+        background-image: url(imagens/cantores/popp/maroon-5.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#riha{
+        background-image: url(imagens/cantores/popp/rihann.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#cap{
+        background-image: url(imagens/cantores/rockk/capital-inicial.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#char{
+        background-image: url(imagens/cantores/rockk/charlie-brown.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#leg{
+        background-image: url(imagens/cantores/rockk/legiao-urbana.jpg);
+        background-size: 350px 635px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#acd{
+        background-image: url(imagens/cantores/rockk/ac-d.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#gun{
+        background-image: url(imagens/cantores/rockk/guns-roses.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#que{
+        background-image: url(imagens/cantores/rockk/queen.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#arl{
+        background-image: url(imagens/cantores/sambaa/arlindo-cruz.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#cart{
+        background-image: url(imagens/cantores/sambaa/cartola.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#zec{
+        background-image: url(imagens/cantores/sambaa/zeca-pagodinho.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#anacas{
+        background-image: url(imagens/cantores/sertanejoo/ana-castela.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#jor{
+        background-image: url(imagens/cantores/sertanejoo/jorge-e-mateus.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div#mari{
+        background-image: url(imagens/cantores/sertanejoo/marilia-mendonca.jpg);
+        background-size: 350px 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div.q{
+        border: 8px solid #CC8500;
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+        display: inline-block;
+    }
 }
 
 div.q{
