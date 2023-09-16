@@ -93,7 +93,6 @@ header{
 header > h1{
     text-align: center;
     padding: 10px 0px 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
 }
 
 header > nav > a{
@@ -146,6 +145,16 @@ h3.tmu{
     text-decoration: none;
     color:#805300;
     text-align: left;
+}
+
+@media screen and (min-width:300px) and (max-width:450px){
+div.q{
+    border: 8px solid #CC8500;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
 }
 
 h3.tmu:hover{
